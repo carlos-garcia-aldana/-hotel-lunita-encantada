@@ -1,0 +1,23 @@
+{
+    "name": "hotel-lunita-encantada",
+    "version": "1.0.0",
+    "description": "Lado del cliente de la aplicación Hotel Lunita Encantada",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "homepage": "http://carlos-garcia-aldana.github.io/hotel-lunita-encantada",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+      "gh-pages": "^3.2.3"
+    }
+  }
